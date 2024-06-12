@@ -5,8 +5,7 @@ class Booking(models.Model):
     ID= models.AutoField(primary_key=True)
     Name= models.CharField(max_length=255)
     No_of_guests= models.IntegerField()
-    BookingDate= models.DateField
-
+    DateBookings= models.DateField()
 
 class Menu(models.Model):
     ID= models.AutoField(primary_key=True)
